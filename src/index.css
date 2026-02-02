@@ -1,0 +1,37 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600;700;800;900&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Poppins", sans-serif;
+}
+
+/* make root fill the viewport and center its children */
+html, body, #root {
+    height: 100vh;
+}
+
+#root {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: linear-gradient(135deg, #667eea 0%, #ccc6d2 100%);
+}
+
+/* Weather becomes a small centered card inside #root */
+.Weather {
+    width: 360px;
+    max-width: 90%;
+    margin: 0 auto;
+}
+
+/* Small centered search bar inside the Weather container */
+.Weather .searchbar {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 280px;
+    max-width: 90%;
+    margin: 0 auto;
+}
